@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin:0; padding:0;
+}
+header{
+    background-color: rgb(155, 93, 214);
+    width: 100%;
+    height: 200px;
+    margin-top: 0 auto;
+}
+main{
+    width: 100%;
+    height: 1200px;
+    background-color: crimson;
+}
+
+#imgcv{
+    width: 200px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 100px;
+    float: left;
+}
+#botao{
+    text-align:right;
+    float: right;
+    margin-right: 60px;
+    margin-top: 13px;
+    height: 200px;
+}
+.botaotopo{
+    margin-top: 15px;
+    background-color: rgb(189, 189, 189);
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: 4px -4px 1px #000;
+}

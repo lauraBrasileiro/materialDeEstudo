@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El Desafio 1</title>
+</head>
+
+<body>
+    <h1>DESAFIO 1</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rua</th>
+                <th>numero</th>
+                <th>complemento</th>
+                <th>bairro</th>
+                <th>cidado</th>
+                <th>UF</th>
+            </tr>
+        </thead>
+        <tbody id="corpo">
+        </tbody>
+    </table>
+
+
+    <script>
+
+        var endereco = [
+            {
+                rua: "Rua Silvestre Lacroix",
+                numero: 66,
+                complemento: "fundos casa1",
+                bairro: "TUCURUVI",
+                cidade: "São Paulo",
+                UF: "SP"
+
+            },
+            {
+                rua: "Rua Silvestre Lacroix",
+                numero: 66,
+                complemento: "fundos casa1",
+                bairro: "TUCURUVI",
+                cidade: "São Paulo",
+                UF: "SP"
+
+            },
+            {
+                rua: "Rua Silvestre Lacroix",
+                numero: 66,
+                complemento: "fundos casa1",
+                bairro: "TUCURUVI",
+                cidade: "São Paulo",
+                UF: "SP"
+
+            },
+            {
+                rua: "Rua Silvestre Lacroix",
+                numero: 66,
+                complemento: "fundos casa1",
+                bairro: "TUCURUVI",
+                cidade: "São Paulo",
+                UF: "SP"
+
+            },
+            {
+                rua: "Rua Silvestre Lacroix",
+                numero: 66,
+                complemento: "fundos casa1",
+                bairro: "TUCURUVI",
+                cidade: "São Paulo",
+                UF: "SP"
+
+            },
+            {
+                rua: "Rua Silvestre Lacroix",
+                numero: 66,
+                complemento: "fundos casa1",
+                bairro: "TUCURUVI",
+                cidade: "São Paulo",
+                UF: "SP"
+
+            }
+        ];
+        var end = document.querySelector("#corpo");
+
+        for (var i = 0; i < endereco.length; i++) {
+            end.innerHTML += "<tr><td>" + 
+                endereco[i].rua + "</td><td>" + 
+                endereco[i].numero + "</td><td>" + 
+                endereco[i].complemento + "</td><td>" +
+                endereco[i].bairro + "</td><td>" + 
+                endereco[i].cidade + "</td><td>" +
+                endereco[i].UF + "</td></tr>";
+        }
+
+    //document.write ("Seu endereço cabron:" + "<br>" + endereco.rua + ", "+ endereco.numero + " complemento:" + endereco.complemento + "<br>" + endereco.bairro + " " + endereco.cidade + " - " + endereco.UF);
+
+    </script>
+
+
+
+</body>
+
+</html>
